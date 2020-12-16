@@ -51,8 +51,7 @@ core.entity_form_display.node.topic.default:
             children:
               - title
 field.field.node.topic.field_files:
-  expected_config:
-    label: Files
+  expected_config: { }
   update_actions:
     change:
       label: Attachment
