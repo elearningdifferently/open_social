@@ -1,32 +1,5 @@
 core.entity_form_display.node.topic.default:
-  expected_config:
-    content:
-      body:
-        weight: 3
-      created:
-        weight: 4
-      field_topic_comments:
-        weight: 6
-      field_topic_image:
-        weight: 4
-      field_topic_type:
-        weight: 2
-      path:
-        weight: 7
-      title:
-        weight: 1
-      uid:
-        weight: 3
-    third_party_settings:
-      field_group:
-        group_settings:
-          children:
-            - uid
-            - created
-        group_topic_content:
-          children:
-            - title
-            - body
+  expected_config: { }
   update_actions:
     delete:
       third_party_settings:
